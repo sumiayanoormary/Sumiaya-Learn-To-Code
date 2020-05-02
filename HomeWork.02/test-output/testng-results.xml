@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0"
+	total="1" passed="1">
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="8102"
+		started-at="2020-04-14T23:57:07Z" finished-at="2020-04-14T23:57:15Z">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="8102"
+			started-at="2020-04-14T23:57:07Z" finished-at="2020-04-14T23:57:15Z">
+			<class name="Macys.Shop.Test_Case.Testing">
+				<test-method status="PASS"
+					signature="Before_Test()[pri:0, instance:Macys.Shop.Test_Case.Testing@4145bad8]"
+					name="Before_Test" is-config="true" duration-ms="1921"
+					started-at="2020-04-14T19:57:07Z"
+					finished-at="2020-04-14T19:57:09Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Before_Test -->
+				<test-method status="PASS"
+					signature="Test_Case_1()[pri:0, instance:Macys.Shop.Test_Case.Testing@4145bad8]"
+					name="Test_Case_1" duration-ms="1984"
+					started-at="2020-04-14T19:57:09Z"
+					finished-at="2020-04-14T19:57:11Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- Test_Case_1 -->
+				<test-method status="PASS"
+					signature="After_Test()[pri:0, instance:Macys.Shop.Test_Case.Testing@4145bad8]"
+					name="After_Test" is-config="true" duration-ms="4168"
+					started-at="2020-04-14T19:57:11Z"
+					finished-at="2020-04-14T19:57:15Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- After_Test -->
+			</class> <!-- Macys.Shop.Test_Case.Testing -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
+</testng-results>

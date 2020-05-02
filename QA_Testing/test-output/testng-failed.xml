@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT"
+	name="Failed suite [Default suite]">
+	<test name="Default test(failed)">
+		<classes>
+			<class name="Demo.Open_Cart_Test_Case.Demo_Open_Cart_Test_Case">
+				<methods>
+					<include name="Before_Test" />
+					<include name="Negative_Register_Account_Without_Password" />
+					<include name="Negative_Register_Account_Without_Email" />
+					<include
+						name="Negative_Register_Account_Without_Click_Agree" />
+					<include name="Negative_Register_Account_Without_Last_Name" />
+					<include name="Positive_Login" />
+					<include name="Negative_Login_Without_Email" />
+					<include name="Negative_Login_Without_Password" />
+					<include
+						name="Negative_Register_Account_Without_First_Name" />
+					<include name="After_Test" />
+					<include
+						name="Negative_Register_Account_Without_Confirm_Password" />
+					<include name="Negative_Register_Account_Without_Telephone" />
+					<include name="Positive_Account_Verification" />
+					<include name="Positive_Register_Account" />
+				</methods>
+			</class> <!-- Demo.Open_Cart_Test_Case.Demo_Open_Cart_Test_Case -->
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
